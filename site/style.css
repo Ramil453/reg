@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.wrappers {
+  display: flex;
+
+}
+
+.first-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.second-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.472)
+}
+
+.btn {
+  border: none;
+  background: rgb(3, 170, 3);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
